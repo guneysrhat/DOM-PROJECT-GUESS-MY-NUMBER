@@ -1,3 +1,3 @@
-# Projenin Canlı adresi
+# Live Project 
 
-https://tahmin-et.netlify.app/
+(https://guneysrhat.github.io/DOM-PROJECT-GUESS-MY-NUMBER/)
