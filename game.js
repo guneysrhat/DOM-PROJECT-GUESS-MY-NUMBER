@@ -4,7 +4,7 @@
 //*======================================
 
 //? 1-100 arasinda rasgele bir sayi tut.
-const randomNumber = Math.round(Math.random() * 100);
+let randomNumber = Math.round(Math.random() * 100);
 console.log(randomNumber);
 
 //? Variables
@@ -53,7 +53,7 @@ document.querySelector(".check-btn").addEventListener("click", () => {
 document.querySelector(".again-btn").addEventListener("click", () => {
   score = 10;
   document.querySelector(".score").textContent = score;
-  const randomNumber = Math.round(Math.random() * 100);
+  randomNumber = Math.round(Math.random() * 100);
   document.querySelector(".secret-number").textContent = "?";
   console.log(randomNumber);
   document.querySelector(".check-btn").disabled = false;
